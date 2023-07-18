@@ -6,14 +6,14 @@ import App from './App';
 import { Appprovider } from './contax/productcontac';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-<Appprovider>
-<BrowserRouter>
-<App />
-</BrowserRouter>
-</Appprovider>
+    <Appprovider>
+        <BrowserRouter>
+            <App />
+        </BrowserRouter>
+    </Appprovider>
 
 
- 
+
 );
 
 
